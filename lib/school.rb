@@ -12,6 +12,7 @@ class School
     roster[grade] = []
     if roster[grade] != roster[grade]
       roster[grade] << student_name
+    end  
   end
 
   def grade(student_grade)
