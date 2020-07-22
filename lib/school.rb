@@ -10,7 +10,7 @@ class School
 
   def add_student(student_name, grade)
     roster[grade] = []
-    if roster[grade].include?(roster[grade]) 
+    unless roster[grade].include?(roster[grade]) 
       roster[grade] << student_name
     end  
   end
