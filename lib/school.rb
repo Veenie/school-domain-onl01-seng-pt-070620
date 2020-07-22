@@ -9,7 +9,7 @@ class School
   end
 
   def add_student(student_name, grade)
-    if roster[grade] = roster[grade]
+    if roster[grade] = []
       roster[grade] << student_name.unique
     end  
   end
